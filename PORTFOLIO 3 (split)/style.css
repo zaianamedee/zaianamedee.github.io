@@ -1,0 +1,82 @@
+body {
+    font-family: 'Karla', sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    font-size: clamp (16px,5vw,32px);
+    margin: 0;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 99vh;
+    
+}
+
+.home-plus{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 99vh;
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.split-right{
+    background: #000;
+}
+
+.text {
+    padding: 5%;
+    text-align: justify;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    padding: 24px;
+}
+
+.header-plus{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 24px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-plus a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 30px 90px;
+    align-items: baseline;
+    align-items: center;
+}
+
+.projects-large {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    padding: 30px 0px;
+    align-items: baseline;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
