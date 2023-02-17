@@ -106,7 +106,7 @@ body {
 
 .header-plus{
     display: grid;
-    grid-template-columns: 100px auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
     line-height: 1;
     align-items: center;
     padding: 24px;
